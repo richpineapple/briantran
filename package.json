@@ -1,0 +1,14 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:johnmarion1126/personal-website.git",
+  "author": "johnmarion1126 <48599206+johnmarion1126@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.8"
+  }
+}
