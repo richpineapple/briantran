@@ -10,25 +10,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@100;500;600;700&display=swap" rel="stylesheet">
     <title>John Marion Sanchez</title>
 </head>
-<body>
-    <div class="w-full h-full bg-background text-header font-header font-medium text-m">
-        <nav class="sticky top-0 p-2.5 w-full flex justify-center bg-background">
-            <ul>
-                <a href="#" class="mx-2 transition border-solid border-4 border-background pb-2.5 hover:border-b-link hover:text-link">Home</a>
-                <a href="#" class="mx-2 transition border-solid border-4 border-background pb-2.5 hover:border-b-link hover:text-link">Works</a>
-                <a href="#" class="mx-2 transition border-solid border-4 border-background pb-2.5 hover:border-b-link hover:text-link">About</a>
-                <a href="#" class="mx-2 transition border-solid border-4 border-background pb-2.5 hover:border-b-link hover:text-link">Contact</a>
-            </ul>
-        </nav>
-        <section class="mt-20 flex items-center flex-col text-center">
-            <h1 class="font-bold text-3xl sm:text-4xl">Hello, my name is <span class="text-link">John</span></h1>
-            <h3 class="mt-2 font-text font-normal text-text text-lg sm:text-xl">I'm a Full Stack Developer, Mentor, & Student</h3>
-            <div class="mt-5 w-60 h-60 overflow-hidden border-link border-4 border-solid rounded-full bg-[url('/images/hero.jpg')] bg-center bg-contain bg-[length:241px_232px]">
+<body class="bg-background text-header font-header font-medium text-m">
+    <nav class="sticky top-0 p-2.5 w-full flex justify-center bg-background">
+        <ul>
+            <a href="#" class="mx-2 transition border-solid border-4 border-background pb-2.5 hover:border-b-link hover:text-link">Home</a>
+            <a href="#" class="mx-2 transition border-solid border-4 border-background pb-2.5 hover:border-b-link hover:text-link">Works</a>
+            <a href="#" class="mx-2 transition border-solid border-4 border-background pb-2.5 hover:border-b-link hover:text-link">About</a>
+            <a href="#" class="mx-2 transition border-solid border-4 border-background pb-2.5 hover:border-b-link hover:text-link">Contact</a>
+        </ul>
+    </nav>
+    <section class="mt-20 flex items-center flex-col text-center">
+        <h1 class="font-bold text-3xl sm:text-4xl">Hello, my name is <span class="text-link">John</span></h1>
+        <h3 class="mt-2 font-text font-normal text-text text-lg sm:text-xl">I'm a Full Stack Developer, Mentor, & Student</h3>
+        <div class="mt-5 w-60 h-60 overflow-hidden border-link border-4 border-solid rounded-full bg-[url('/images/hero.jpg')] bg-center bg-contain bg-[length:241px_232px]">
+        </div>
+    </section>
+    <section>
+        <h1 class="mt-60 text-center font-bold text-3xl text-link">Works</h1>
+        <article class="my-12 mx-auto max-w-xs sm:max-w-md text-justify">
+            <div class="flex justify-between items-center">
+                <h3 class="font-semibold text-xl">Project Tracker</h3>
+                <a href="#" class=" font-semibold text-code hover:text-text">Check my code</a>
             </div>
-        </section>
-        <section>
-            <h1 class="mt-60 text-center font-bold text-2xl">Works</h1>
-        </section>
-    </div>
+            <p class="font-text font-light text-text">An application that helps organize and track the progress of projects. Built with MongoDB, Express, React, and Node.</p>
+            <img src="/images/projectTracker.png" alt="project tracker image" class="mt-4 rounded-2xl">
+        </article>
+    </section>
 </body>
 </html>
