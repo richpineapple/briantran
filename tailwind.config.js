@@ -5,7 +5,7 @@ module.exports = {
       colors: {
         'header': '#ffffff',
         'text': '#dddcdf',
-        'link': '#606873',
+        'link': '#3EA8A6',
         'socials': '#c4c4c4',
         'background': '#1f1f24'
       },
