@@ -393,12 +393,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
   --tw-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
+.absolute {
+  position: absolute;
+}
 .sticky {
   position: -webkit-sticky;
   position: sticky;
 }
 .top-0 {
   top: 0px;
+}
+.bottom-0 {
+  bottom: 0px;
+}
+.left-0 {
+  left: 0px;
+}
+.left-\[-10\] {
+  left: -10;
 }
 .mx-2 {
   margin-left: 0.5rem;
@@ -456,6 +468,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-60 {
   height: 15rem;
 }
+.h-96 {
+  height: 24rem;
+}
+.h-3\/4 {
+  height: 75%;
+}
+.h-\[2000px\] {
+  height: 2000px;
+}
+.h-\[1000px\] {
+  height: 1000px;
+}
 .w-full {
   width: 100%;
 }
@@ -467,6 +491,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-2\/5 {
   width: 40%;
+}
+.w-96 {
+  width: 24rem;
+}
+.w-\[500px\] {
+  width: 500px;
+}
+.w-\[1000px\] {
+  width: 1000px;
+}
+.w-\[2000px\] {
+  width: 2000px;
 }
 .min-w-\[400px\] {
   min-width: 400px;
