@@ -720,6 +720,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     max-width: 32rem;
   }
 
+  .sm\:max-w-sm {
+    max-width: 24rem;
+  }
+
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
